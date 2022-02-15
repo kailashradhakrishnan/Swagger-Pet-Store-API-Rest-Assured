@@ -1,0 +1,25 @@
+
+
+Summary - I have automated 5 scenarios in API Automation for Wikipedia search page using Cucumber BDD framework with Rest Assured. 
+		  I have also implemented cucumber extent report and PDF reports for the outputs.
+
+Framework Details :
+
+ 		
+ 1. src/test/java
+ 
+ 		Contains below folders
+ 		
+ 		a. Feature files - Contains all scenarios in Gherkin language with input data's 		
+ 		b. runner File - Contains path of feature files and stepdefinition files. Just right click and RunAs Junit will execute all the scenarios.
+ 		c. Stepdefinintion Files - Contains all the methods and it is segregated according to the BDD with Given/When/Then etc.
+ 		
+ 3. src/test/resources
+ 
+ 		Contains below files
+ 		
+ 		a. config.properties - Contains the base url and browser details.
+ 		b. extent.properties - Configuration file for extent report in pdf and html format.
+ 		c. extent-config.xml - configuration file for pdf report theme.
+ 		
+ 4. POM.xml - Contains all the Maven dependencies which is required for the project.
